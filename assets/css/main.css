@@ -1,0 +1,421 @@
+.bg-bluemind {
+    background-image: url("../img/mind.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.full-bg {
+    background-color: #53445a;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+}
+
+
+.white{
+    background-color: aliceblue;
+}
+.black{
+    background-color: rgb(56, 48, 48);
+}
+
+.mt-4{
+    margin-top: 3rem!important;
+}
+
+
+.avatar-xxl {
+    width: 160px!important;  /* Ajuste para o tamanho desejado */
+    height: 20%!important; /* Garante que fique redondo */
+    object-fit: cover!important; /* Mantém a imagem bem ajustada */
+    border-radius: 50%!important; /* Mantém o formato redondo */
+  }
+  .multi-screen-section {
+    background-color: #f8f9fa; /* Fundo claro para destacar */
+  }
+  
+  .styled-line {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 10px 0;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%; /* Garante que se ajuste ao container */
+  }
+  
+  /* Imagem do Desktop (Grande e Responsiva) */
+  .main-image {
+    width: 116%;  /* Ocupa todo o espaço disponível */
+    max-width: 800px; /* Tamanho máximo grande */
+    height: auto; /* Mantém a proporção */
+  }
+  
+  /* Imagem do Celular (Grande e Sobreposta) */
+  .mobile-image {
+    position: absolute;
+    /* width: 90%;  */
+    max-width: 450px; /* Limite para telas grandes */
+    bottom: -9px; /* Ajuste de posição */
+    left: -19%; /* Move um pouco para dentro */
+    transform: translateY(20px);
+  }
+  .py-6 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}
+.margin-t{
+    margin-top: 6rem!important;
+}
+.rounded-circle, .avatar.rounded-circle img {
+    width: 120px !important;  /* Tamanho fixo para todos */
+    height: 120px !important; /* Mantém um círculo perfeito */
+    border-radius: 50% !important; /* Mantém o formato circular */
+    object-fit: cover !important;
+}
+
+
+.shadow-bottom {
+    filter: drop-shadow(0px 8px 10px rgba(52, 8, 245, 0.2))!important;
+}
+.shadow {
+    box-shadow: 0 1px 59px -24px rgb(255 255 255), 0 2px 4px -1px rgb(255 255 255) !important;
+}
+.shadow-bottom-g {
+    filter: drop-shadow(0px 8px 10px rgba(65, 62, 80, 0.2))!important;
+}
+
+.avatar img{
+    width: 220px;
+}
+
+
+
+
+/* Background suave para a seção */
+.depoiments-section {
+    background-color: #f8f9fa;
+}
+
+/* Linha decorativa abaixo do título */
+.styled-line {
+    width: 60px;
+    height: 3px;
+    background-color: #28a745;
+    border: none;
+    margin: 10px auto;
+}
+
+/* Ajuste no Swiper Container para centralizar */
+.swiper-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Centraliza os slides */
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centraliza o conteúdo do slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilização do card */
+.depoiment-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Imagem redonda do cliente */
+.depoiment-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização da seção */
+.depoiments-section {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Linha decorativa */
+.styled-line {
+    width: 60px;
+    height: 3px;
+    background-color: #28a745;
+    border: none;
+    margin: 10px auto;
+}
+
+/* Centralização dos depoimentos */
+.depoiments-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+/* Área do depoimento */
+#depoiment-container {
+    width: 100%;
+    max-width: 500px;
+    min-height: 250px; /* Garante que os depoimentos não fiquem pulando de tamanho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Card do depoimento */
+.depoiment-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Imagem redonda */
+.depoiment-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botões de navegação */
+.depoiment-btn {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover nos botões */
+.depoiment-btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.full-bg2 {
+    background-color: #d9d5e7;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+}
+.full-bg3{
+    background-color: #435bf7;
+    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+    background-size: 200px;
+}
+
+
+.feature-card {
+    padding: 3rem 1.5rem;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+/*  Responsividade para telas menores */
+@media (max-width: 768px) {
+    .avatar-xxl {
+        width: 100px !important; /* Reduz tamanho do avatar */
+        height: 100px !important; /* Mantém redondo */
+    }
+
+    .main-image {
+        width: 100%; /* Ajusta ao container */
+        max-width: 500px; /* Reduz tamanho para mobile */
+    }
+
+    .mobile-image {
+        width: 50%; /* Mantém proporcional */
+        max-width: 200px; /* Reduz para se encaixar melhor */
+        left: 5%; /* Ajuste para centralizar */
+        bottom: -5px; /* Ajuste fino */
+    }
+
+    .py-6 {
+        padding-top: 4rem !important; /* Reduz espaçamento */
+        padding-bottom: 4rem !important;
+    }
+}
+
+/*  Responsividade para telas muito pequenas (até 480px) */
+@media (max-width: 480px) {
+    .avatar-xxl {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .main-image {
+        max-width: 100%; /* Usa toda a largura */
+        width: auto;
+    }
+
+    .mobile-image {
+        width: 80%; /* Reduz tamanho */
+        max-width: 750px;
+        left: 53%;
+        bottom: 0;
+    }
+}
+
+
+
+
+.pricing-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  }
+  
+  .section-divider1 {
+    height: 3px;
+    background: linear-gradient(90deg, #2ecc71, #3498db);
+    border: none;
+    margin: 2rem 0;
+    border-radius: 3px;
+  }
+  
+  .section-title {
+    background: linear-gradient(90deg, #2ecc71, #16a085);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .option-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid;
+    transition: transform 0.3s ease;
+  }
+  
+  .option-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .option-standard {
+    border-color: #2ecc71;
+  }
+  
+  .option-combo {
+    border-color: #e74c3c;
+    background-color: #fef9f9;
+  }
+  
+  .text-success {
+    color: #2ecc71;
+    font-weight: bold;
+  }
+  
+  .text-danger {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .text-warning {
+    color: #f39c12;
+    font-weight: bold;
+  }
+  
+  .note-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    border-left: 4px solid #3498db;
+  }
+  
+  .price-tag {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .discount-badge {
+    display: inline-block;
+    background: #f39c12;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
+  
+  .emoji {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
